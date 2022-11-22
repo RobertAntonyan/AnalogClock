@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#clock {
+    width: 605px;
+    height: 605px;
+    margin: 0 auto;
+    /* margin: 50px auto; */
+    /* border: 1px solid; */
+    background-image: url(../image/clockface.jpg);
+    position: relative;
+}
+
+#sec,#min,#hour
+{
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 285px;
+    top: 0px;
+    /* transition: all ease 500ms;  */
+}
